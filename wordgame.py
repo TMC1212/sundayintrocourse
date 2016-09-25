@@ -58,6 +58,7 @@ def play_word_games():
     if strikes >= max_strikes:
         print("Sorry, game over")
     else:
+        print(word)
         print("Winner!")
      
 
